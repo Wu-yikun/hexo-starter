@@ -101,6 +101,8 @@ ignore:
 theme: landscape
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Wu-yikun/wu-yikun.github.io.git
+  branch: master
